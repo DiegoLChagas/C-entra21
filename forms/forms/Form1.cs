@@ -35,6 +35,8 @@ namespace forms
 
         private void btnmult_Click(object sender, EventArgs e)
         {
+            if( n1 == 1)
+            { n1++; }
             n1 = int.Parse(textBox1.Text);
             n2 = int.Parse(textBox2.Text);
             MessageBox.Show($"{n1 * n2}");
