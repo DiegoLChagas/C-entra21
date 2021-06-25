@@ -37,6 +37,9 @@ namespace forms
             this.btnmult = new System.Windows.Forms.Button();
             this.btndiv = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnhist = new System.Windows.Forms.Button();
+            this.btnLimp = new System.Windows.Forms.Button();
+            this.btnsalve = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnad
@@ -45,7 +48,7 @@ namespace forms
             this.btnad.Location = new System.Drawing.Point(114, 186);
             this.btnad.Name = "btnad";
             this.btnad.Size = new System.Drawing.Size(93, 40);
-            this.btnad.TabIndex = 0;
+            this.btnad.TabIndex = 3;
             this.btnad.Text = "+";
             this.btnad.UseVisualStyleBackColor = false;
             this.btnad.Click += new System.EventHandler(this.btnad_Click);
@@ -74,7 +77,7 @@ namespace forms
             this.textBox2.Location = new System.Drawing.Point(441, 84);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(347, 23);
-            this.textBox2.TabIndex = 3;
+            this.textBox2.TabIndex = 2;
             this.textBox2.Leave += new System.EventHandler(this.textBox2_Leave);
             // 
             // btnsub
@@ -121,12 +124,46 @@ namespace forms
             this.label2.TabIndex = 7;
             this.label2.Text = "numero 2";
             // 
+            // btnhist
+            // 
+            this.btnhist.Location = new System.Drawing.Point(367, 280);
+            this.btnhist.Name = "btnhist";
+            this.btnhist.Size = new System.Drawing.Size(75, 23);
+            this.btnhist.TabIndex = 7;
+            this.btnhist.Text = "historico";
+            this.btnhist.UseVisualStyleBackColor = true;
+            this.btnhist.Click += new System.EventHandler(this.btnhist_Click);
+            // 
+            // btnLimp
+            // 
+            this.btnLimp.Location = new System.Drawing.Point(594, 280);
+            this.btnLimp.Name = "btnLimp";
+            this.btnLimp.Size = new System.Drawing.Size(75, 23);
+            this.btnLimp.TabIndex = 8;
+            this.btnLimp.Text = "Limpar";
+            this.btnLimp.UseVisualStyleBackColor = true;
+            this.btnLimp.Click += new System.EventHandler(this.btnLimp_Click);
+            // 
+            // btnsalve
+            // 
+            this.btnsalve.AutoSize = true;
+            this.btnsalve.Location = new System.Drawing.Point(359, 255);
+            this.btnsalve.Name = "btnsalve";
+            this.btnsalve.Size = new System.Drawing.Size(56, 19);
+            this.btnsalve.TabIndex = 9;
+            this.btnsalve.Text = "salvar";
+            this.btnsalve.UseVisualStyleBackColor = true;
+            this.btnsalve.CheckedChanged += new System.EventHandler(this.btnsalve_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cyan;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnsalve);
+            this.Controls.Add(this.btnLimp);
+            this.Controls.Add(this.btnhist);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btndiv);
             this.Controls.Add(this.btnmult);
@@ -152,6 +189,9 @@ namespace forms
         private System.Windows.Forms.Button btnmult;
         private System.Windows.Forms.Button btndiv;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnhist;
+        private System.Windows.Forms.Button btnLimp;
+        private System.Windows.Forms.CheckBox btnsalve;
     }
 }
 
