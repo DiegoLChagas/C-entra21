@@ -10,7 +10,7 @@ namespace exercicios
 {
     public partial class Form5 : Form
     {
-        int n1, n2, n3, n4, total;
+        int n1, n2, n3, n4;
 
         private void valor3_TextChanged(object sender, EventArgs e)
         {

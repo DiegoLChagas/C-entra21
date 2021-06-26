@@ -17,3 +17,6 @@ C:\Users\Entra21\Desktop\Diego C\github\exercicios\exercicios\exercicios\obj\Deb
 C:\Users\Entra21\Desktop\Diego C\github\exercicios\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.Form3.resources
 C:\Users\Entra21\Desktop\Diego C\github\exercicios\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.Form4.resources
 C:\Users\Entra21\Desktop\Diego C\github\exercicios\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.Form5.resources
+C:\Users\Entra21\Desktop\Diego C\github\exercicios\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.Form6.resources
+C:\Users\Entra21\Desktop\Diego C\github\exercicios\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.Form7.resources
+C:\Users\Entra21\Desktop\Diego C\github\exercicios\exercicios\exercicios\obj\Debug\netcoreapp3.1\exercicios.Form8.resources
