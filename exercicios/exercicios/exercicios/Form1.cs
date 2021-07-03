@@ -58,5 +58,11 @@ namespace exercicios
             Form8 form8 = new Form8();
             form8.Show();
         }
+
+        private void btncad_Click(object sender, EventArgs e)
+        {
+            cadastro cadastro = new cadastro();
+            cadastro.Show();
+        }
     }
 }

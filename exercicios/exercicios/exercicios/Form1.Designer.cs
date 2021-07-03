@@ -36,6 +36,7 @@ namespace exercicios
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.btnex7 = new System.Windows.Forms.Button();
+            this.btncad = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnex1
@@ -108,11 +109,22 @@ namespace exercicios
             this.btnex7.UseVisualStyleBackColor = true;
             this.btnex7.Click += new System.EventHandler(this.btnex7_Click);
             // 
+            // btncad
+            // 
+            this.btncad.Location = new System.Drawing.Point(576, 13);
+            this.btncad.Name = "btncad";
+            this.btncad.Size = new System.Drawing.Size(103, 23);
+            this.btncad.TabIndex = 7;
+            this.btncad.Text = "novo cadastro";
+            this.btncad.UseVisualStyleBackColor = true;
+            this.btncad.Click += new System.EventHandler(this.btncad_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btncad);
             this.Controls.Add(this.btnex7);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -135,6 +147,7 @@ namespace exercicios
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnex7;
+        private System.Windows.Forms.Button btncad;
     }
 }
 

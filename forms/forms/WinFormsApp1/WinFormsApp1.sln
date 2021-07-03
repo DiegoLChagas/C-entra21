@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{2EF1145A-A521-4625-B8C9-1BF6C35F4FEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaOO", "ContaOO\ContaOO.csproj", "{5FF605CC-B851-47B7-BF1D-5EF7827C70B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EF1145A-A521-4625-B8C9-1BF6C35F4FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF1145A-A521-4625-B8C9-1BF6C35F4FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF1145A-A521-4625-B8C9-1BF6C35F4FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF1145A-A521-4625-B8C9-1BF6C35F4FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF605CC-B851-47B7-BF1D-5EF7827C70B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF605CC-B851-47B7-BF1D-5EF7827C70B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF605CC-B851-47B7-BF1D-5EF7827C70B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF605CC-B851-47B7-BF1D-5EF7827C70B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E99CBBCC-08CB-4926-85E1-C99E8B3E53B7}
+	EndGlobalSection
+EndGlobal
