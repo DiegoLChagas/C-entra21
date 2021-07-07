@@ -1,0 +1,6 @@
+C:\Users\Entra21\Desktop\Diego C\github\academia\academia\academia\obj\Debug\netcoreapp3.1\academia.csproj.AssemblyReference.cache
+C:\Users\Entra21\Desktop\Diego C\github\academia\academia\academia\obj\Debug\netcoreapp3.1\academia.Form1.resources
+C:\Users\Entra21\Desktop\Diego C\github\academia\academia\academia\obj\Debug\netcoreapp3.1\academia.csproj.GenerateResource.cache
+C:\Users\Entra21\Desktop\Diego C\github\academia\academia\academia\obj\Debug\netcoreapp3.1\academia.AssemblyInfoInputs.cache
+C:\Users\Entra21\Desktop\Diego C\github\academia\academia\academia\obj\Debug\netcoreapp3.1\academia.AssemblyInfo.cs
+C:\Users\Entra21\Desktop\Diego C\github\academia\academia\academia\obj\Debug\netcoreapp3.1\academia.csproj.CoreCompileInputs.cache
