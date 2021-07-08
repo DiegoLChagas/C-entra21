@@ -6,19 +6,18 @@ namespace academia.Alunos
 {
     class Academia
     {
-        public List<Alunos> aluno { get; private set; }
+        public List<Aluno> Alunos { get; private set; }
 
         public Academia()
         {
-            aluno = new List<Alunos>;
+            Alunos = new List<Aluno>();
         }
-        public void AdicionaAluno(Alunos alunos)
+      
+        public void AdicionaAluno(string nome)
         {
-            aluno.Add(alunos);
-        }
-        public void AdicionaAluno(string nome, string cpf, string rg)
-        {
-            aluno.Add(new Alunos(nome, cpf, rg));
+            Aluno aluno = new Aluno();
+            aluno.Nome = nome;
+           Alunos.Add(aluno);
         }
     }
 }

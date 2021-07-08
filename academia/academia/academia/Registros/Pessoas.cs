@@ -4,12 +4,12 @@ using System.Text;
 
 namespace academia.Alunos
 {
-    class Pessoas
+    class Pessoa
     {
 
-        public string nome { get; set; }
-        public string rg { get; set; }
-        public string cpf { get; set; }
+        public string Nome { get; set; }
+        public string Rg { get; set; }
+        public string Cpf { get; set; }
 
     }
 }

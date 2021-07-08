@@ -4,12 +4,19 @@ using System.Text;
 
 namespace academia.Alunos
 {
-    class Alunos : Pessoas
+    class Aluno : Pessoa
     {
         public string turma { get; set; }
         public double mensalidade { get; set; }
-        public bool paga = true;
+        public bool paga { get; set; }
 
-        
+        public override string ToString()
+        {
+            return Nome;
+        }
+
+     
+
+
     }
 }

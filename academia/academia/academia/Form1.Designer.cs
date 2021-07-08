@@ -1,5 +1,5 @@
 ﻿
-namespace academia
+namespace desing
 {
     partial class Form1
     {
@@ -39,7 +39,7 @@ namespace academia
             this.txtRg = new System.Windows.Forms.TextBox();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnApagar = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnNovo = new System.Windows.Forms.Button();
             this.btnPagar = new System.Windows.Forms.Button();
             this.SIM = new System.Windows.Forms.CheckedListBox();
             this.SuspendLayout();
@@ -59,6 +59,7 @@ namespace academia
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(507, 214);
             this.listBox1.TabIndex = 1;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -130,14 +131,15 @@ namespace academia
             this.btnApagar.Text = "Apagar";
             this.btnApagar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnNovo
             // 
-            this.button3.Location = new System.Drawing.Point(277, 399);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(93, 39);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnNovo.Location = new System.Drawing.Point(277, 399);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(93, 39);
+            this.btnNovo.TabIndex = 10;
+            this.btnNovo.Text = "Novo";
+            this.btnNovo.UseVisualStyleBackColor = true;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // btnPagar
             // 
@@ -167,7 +169,7 @@ namespace academia
             this.ClientSize = new System.Drawing.Size(512, 450);
             this.Controls.Add(this.SIM);
             this.Controls.Add(this.btnPagar);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnNovo);
             this.Controls.Add(this.btnApagar);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.txtRg);
@@ -197,7 +199,7 @@ namespace academia
         private System.Windows.Forms.TextBox txtRg;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnApagar;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnNovo;
         private System.Windows.Forms.Button btnPagar;
         private System.Windows.Forms.CheckedListBox SIM;
     }
